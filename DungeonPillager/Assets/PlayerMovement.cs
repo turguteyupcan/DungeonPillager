@@ -12,8 +12,8 @@ public class PlayerMovement : MonoBehaviour
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
 
-    // Update is called once per frame
-    void Update()
+    // Update is called once per frame - TPS Update
+    /*void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
@@ -28,5 +28,12 @@ public class PlayerMovement : MonoBehaviour
             Vector3 moveDirection= Quaternion.Euler(0f,targetAngle,0f)*Vector3.forward;
             controller.Move(moveDirection.normalized * speed*Time.deltaTime);
         }
+    }*/
+
+    private void Update()
+    {
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        Vector3 move = transform.right * horizontal;
+        controller.Move(move*speed*Time.deltaTime);
     }
 }
