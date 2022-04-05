@@ -15,12 +15,16 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.1f;
     public LayerMask groundMask;
 
+    public Transform frontcheck;
+
     Vector3 velocity;
     bool isGrounded;
-    
+    bool isBumped;
+
     private void Update()
     {
         isGrounded = Physics.CheckSphere(grouncheck.position, groundDistance, groundMask);
+        isBumped = Physics.CheckSphere(frontcheck.position, 0.4f, groundMask);
 
         if (isGrounded && velocity.y < 0)
         {
@@ -29,14 +33,20 @@ public class PlayerMovement : MonoBehaviour
 
         float horizontal = 1;
         Vector3 move = transform.right * horizontal;
-        controller.Move(move*speed*Time.deltaTime);
+        
 
         if (Input.GetMouseButton(0) && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
+        if (isBumped)
+        {
+            move = transform.right * 0;
+        }
+
         velocity.y+=gravity*Time.deltaTime;
         controller.Move(velocity*Time.deltaTime);
+        controller.Move(move * speed * Time.deltaTime);
     }
 }
