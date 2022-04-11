@@ -21,6 +21,11 @@ public class PlayerMovement : MonoBehaviour
     bool isGrounded;
     bool isBumped;
 
+    private Animator animator;
+    private void Start()
+    {
+        animator = GetComponentInChildren<Animator>();
+    }
     private void Update()
     {
         isGrounded = Physics.CheckSphere(grouncheck.position, groundDistance, groundMask);
@@ -48,5 +53,7 @@ public class PlayerMovement : MonoBehaviour
         velocity.y+=gravity*Time.deltaTime;
         controller.Move(velocity*Time.deltaTime);
         controller.Move(move * speed * Time.deltaTime);
+        animator.SetFloat("Speed", move.x);
+        animator.SetFloat("Jump",velocity.y);
     }
 }
