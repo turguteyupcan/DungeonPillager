@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameObject player;
+
     public CharacterController controller;
     public float speed = 12f;
 
@@ -14,12 +16,14 @@ public class PlayerMovement : MonoBehaviour
     public Transform grouncheck;
     public float groundDistance = 0.1f;
     public LayerMask groundMask;
+    public LayerMask enemyMask;
 
     public Transform frontcheck;
 
     Vector3 velocity;
     bool isGrounded;
     bool isBumped;
+    bool isHitEnemy;
 
     private Animator animator;
     private void Start()
@@ -30,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(grouncheck.position, groundDistance, groundMask);
         isBumped = Physics.CheckSphere(frontcheck.position, 0.4f, groundMask);
+        isHitEnemy = Physics.CheckSphere(frontcheck.position, 0.4f, enemyMask);
 
         if (isGrounded && velocity.y < 0)
         {
@@ -48,6 +53,11 @@ public class PlayerMovement : MonoBehaviour
         if (isBumped)
         {
             move = transform.right * 0;
+        }
+
+        if (isHitEnemy)
+        {
+            Destroy(player);
         }
 
         velocity.y+=gravity*Time.deltaTime;
