@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public GameObject player;
+    public FixedButton stopButton;
+    public FixedButton screen;
 
     public CharacterController controller;
     public float speed = 12f;
@@ -45,12 +47,12 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = transform.right * horizontal;
         
 
-        if (Input.GetMouseButton(0) && isGrounded)
+        if (screen.Pressed && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
-        if (isBumped)
+        if (isBumped || stopButton.Pressed)
         {
             move = transform.right * 0;
         }
