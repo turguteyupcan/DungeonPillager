@@ -66,7 +66,8 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(velocity*Time.deltaTime);
         controller.Move(move * speed * Time.deltaTime);
         animator.SetFloat("Speed", move.x);
-        animator.SetFloat("Jump",velocity.y);
+        
+        animator.SetBool("Jump", !isGrounded);
     }
 
     private void OnTriggerEnter(Collider other)
