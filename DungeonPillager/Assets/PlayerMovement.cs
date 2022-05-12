@@ -68,4 +68,10 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", move.x);
         animator.SetFloat("Jump",velocity.y);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Hit");
+        Destroy(player);
+    }
 }
