@@ -70,9 +70,9 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("Jump", !isGrounded);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Hit");
-        Destroy(player);
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    Debug.Log("Hit");
+    //    Destroy(player);
+    //}
 }
