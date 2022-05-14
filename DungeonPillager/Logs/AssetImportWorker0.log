@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1645; Version 2009; 64bit' Language: 'tr' Physical Memory: 32692 MB
+OS: 'Windows 10 Home; OS build 19044.1706; Version 2009; 64bit' Language: 'tr' Physical Memory: 16320 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,497 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-E:/GithubRepos/DungeonPillager/DungeonPillager
+D:/DungeonPillager/DungeonPillager
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60937
-Successfully changed project path to: E:/GithubRepos/DungeonPillager/DungeonPillager
-E:/GithubRepos/DungeonPillager/DungeonPillager
+61414
+Successfully changed project path to: D:/DungeonPillager/DungeonPillager
+D:/DungeonPillager/DungeonPillager
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 23.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/GithubRepos/DungeonPillager/DungeonPillager/Assets
+[Subsystems] Discovering subsystems at path D:/DungeonPillager/DungeonPillager/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   
-    VRAM:     11127 MB
-    Driver:   30.0.15.1215
+    VRAM:     8088 MB
+    Driver:   30.0.15.1259
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002188 seconds.
+Registered in 0.004154 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 24.20 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 28.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.152 seconds
+- Completed reload, in  2.935 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000654 seconds.
+Registered in 0.000613 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
+- Completed reload, in  1.102 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1267 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 62.7 MB.
-System memory in use after: 62.7 MB.
+System memory in use after: 62.8 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1711.
-Total: 1.861900 ms (FindLiveObjects: 0.126500 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.620700 ms  DeleteObjects: 0.072000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Mixamo/axe_NM2.png
-  artifactKey: Guid(cbc20c765d0b8ae449669f524e2274a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/axe_NM2.png using Guid(cbc20c765d0b8ae449669f524e2274a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50645a318aa90957ac8ca7337aa3b887') in 0.080545 seconds
-  Import took 0.082524 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1712.
+Total: 2.096900 ms (FindLiveObjects: 0.183200 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.786200 ms  DeleteObjects: 0.090500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Mixamo/axe_DIF2.png
-  artifactKey: Guid(dce681f47b95bbd4393831fdf033a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/axe_DIF2.png using Guid(dce681f47b95bbd4393831fdf033a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a31c3a1519a2be28dcfca96c209472b') in 0.021489 seconds
-  Import took 0.023320 seconds .
+  path: Assets/PlayerMovement.cs
+  artifactKey: Guid(ad90e933dcc4f834080b2f3b139cf7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMovement.cs using Guid(ad90e933dcc4f834080b2f3b139cf7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2341fe6671cdedcdb30f1e2d3d3cd5c2') in 0.025646 seconds
+  Import took 0.027893 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Mixamo/MaleBruteA_Hair_normal.png
-  artifactKey: Guid(89b977282bc9fdf4aaf628f9b2ffd356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Hair_normal.png using Guid(89b977282bc9fdf4aaf628f9b2ffd356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea67a04a1ed73e7f298541ae82e21c5') in 0.017011 seconds
-  Import took 0.018972 seconds .
+  Time since last request: 243.172073 seconds.
+  path: Assets/PlayerMovement.cs
+  artifactKey: Guid(ad90e933dcc4f834080b2f3b139cf7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMovement.cs using Guid(ad90e933dcc4f834080b2f3b139cf7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa6581387636d567c580b6398ee26f0') in 0.002332 seconds
+  Import took 0.004711 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Mixamo/MaleBruteA_Bottom_normal.png
-  artifactKey: Guid(da36e84ee4014fd4193347508bea78d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Bottom_normal.png using Guid(da36e84ee4014fd4193347508bea78d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20a9e39aedfc76fd913dee9308aec4b') in 0.019572 seconds
-  Import took 0.021472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Mixamo/Breathing Idle.fbx
-  artifactKey: Guid(dcc4f4e3b43d2ff49a7bee0b99778fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/Breathing Idle.fbx using Guid(dcc4f4e3b43d2ff49a7bee0b99778fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1915d86cddbf184d4f1921887c43a093') in 0.019296 seconds
-  Import took 0.021938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Mixamo/MaleBruteA_Moustache_diffuse.png
-  artifactKey: Guid(0cc149a1b834c964593c7f20c0df0ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Moustache_diffuse.png using Guid(0cc149a1b834c964593c7f20c0df0ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800d29f2f077e1f3008a1efdbcffafdb') in 0.014441 seconds
-  Import took 0.016380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Mixamo/brute.fbx
-  artifactKey: Guid(14558980cefd87e439364c2b0b14ea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/brute.fbx using Guid(14558980cefd87e439364c2b0b14ea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732196219bc9ea4816189b5287844697') in 0.461775 seconds
-  Import took 0.464389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Mixamo/Standing Melee Attack 360 Low.fbx
-  artifactKey: Guid(43dc19220d76e5840b3b8759e6e938d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/Standing Melee Attack 360 Low.fbx using Guid(43dc19220d76e5840b3b8759e6e938d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d2ec3a67655ddaf8f958c811148ae0') in 0.008592 seconds
-  Import took 0.010722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Mixamo/MaleBruteA_Moustache_normal.png
-  artifactKey: Guid(042a8dff702f290448e579d9178e744a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Moustache_normal.png using Guid(042a8dff702f290448e579d9178e744a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828df480c536d9a862e96bb01fd0eba5') in 0.007305 seconds
-  Import took 0.009261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Mixamo/MaleBruteA_Shoes_normal.png
-  artifactKey: Guid(c9f816f553fec6942bc71c4ab2cf0012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Shoes_normal.png using Guid(c9f816f553fec6942bc71c4ab2cf0012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458b30ba5797d9af04b04c51a3424d3e') in 0.018921 seconds
-  Import took 0.021216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Mixamo
-  artifactKey: Guid(e1245633b2622b843b98eaed1262c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo using Guid(e1245633b2622b843b98eaed1262c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79716fd4bbe70fba1059f4641ff2d78d') in 0.001548 seconds
-  Import took 0.003317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Mixamo/MaleBruteA_Body_diffuse.png
-  artifactKey: Guid(30f28c8e6d3a193408dd9262635d9a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Body_diffuse.png using Guid(30f28c8e6d3a193408dd9262635d9a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b79699d1df4bbcc0e07a5c5556b62da') in 0.070808 seconds
-  Import took 0.072800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Mixamo/MaleBruteA_Shoes_specular.png
-  artifactKey: Guid(86a69d6358d0dce4480b2bd302d5027c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Shoes_specular.png using Guid(86a69d6358d0dce4480b2bd302d5027c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392b9b79f2ff4e41d3bdb50346d0f4a0') in 0.016114 seconds
-  Import took 0.018104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Mixamo/Flying Back Death.fbx
-  artifactKey: Guid(d2c3f96013a61354f95244a94477c11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/Flying Back Death.fbx using Guid(d2c3f96013a61354f95244a94477c11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35d61ded6618fa1830bc326417e402e') in 0.005336 seconds
-  Import took 0.007401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Mixamo/MaleBruteA_Moustache_specular.png
-  artifactKey: Guid(60c8e25f692b1014cbf535e958591327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Moustache_specular.png using Guid(60c8e25f692b1014cbf535e958591327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24b5d305b48ec5c728cbf08dfc338b2') in 0.011460 seconds
-  Import took 0.013463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Mixamo/MaleBruteA_Bottom_diffuse.png
-  artifactKey: Guid(276ad34fbfbdf944a8e8cc15f073b314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Bottom_diffuse.png using Guid(276ad34fbfbdf944a8e8cc15f073b314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bfb16ef30490644419ab1ebffa34c0') in 0.018076 seconds
-  Import took 0.020159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Mixamo/axe_SPEC.png
-  artifactKey: Guid(dc7042ff2fc3e8240b0582b9dc9ef874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/axe_SPEC.png using Guid(dc7042ff2fc3e8240b0582b9dc9ef874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1466fbfe3b000311dc123733cb5b6cb5') in 0.019050 seconds
-  Import took 0.021320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/DungeonTraps
-  artifactKey: Guid(aa134695e2d25f848ad5bd973066e9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DungeonTraps using Guid(aa134695e2d25f848ad5bd973066e9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63085991d5529e9ccfc1d5a376daba2b') in 0.004661 seconds
-  Import took 0.006496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Mixamo/MaleBruteA_Hair_diffuse.png
-  artifactKey: Guid(5b950d98936669544b5d6aa424d8f5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Hair_diffuse.png using Guid(5b950d98936669544b5d6aa424d8f5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4123a69893e54c930039ae5cfd8bd8d1') in 0.021022 seconds
-  Import took 0.022923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Mixamo/Fall A Loop.fbx
-  artifactKey: Guid(9f38b60486ae4dd4ca5bf643292e6397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/Fall A Loop.fbx using Guid(9f38b60486ae4dd4ca5bf643292e6397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4e3033541eb9036967ce6aa2a9da5e') in 0.007710 seconds
-  Import took 0.010045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Mixamo/Fast Run.fbx
-  artifactKey: Guid(92652bf602f32b44c91b102ff80e2502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/Fast Run.fbx using Guid(92652bf602f32b44c91b102ff80e2502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f0c7b3e7d6db69896db1ef00605c72') in 0.004590 seconds
-  Import took 0.006841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Mixamo/MaleBruteA_Hair_specular.png
-  artifactKey: Guid(729d807b42b3f0e42bc5f36dc2de590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Hair_specular.png using Guid(729d807b42b3f0e42bc5f36dc2de590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f64bc0bae097240ae629a3a34853a0') in 0.020087 seconds
-  Import took 0.022422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Mixamo/MaleBruteA_Shoes_diffuse.png
-  artifactKey: Guid(5414003378eb7d844a6d93f611681310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Shoes_diffuse.png using Guid(5414003378eb7d844a6d93f611681310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab06b3819dac5b146933ffd4840ccb6e') in 0.021256 seconds
-  Import took 0.023282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Mixamo/MaleBruteA_Bottom_specular.png
-  artifactKey: Guid(309a1e2ed7fd56d408317017e1978297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Bottom_specular.png using Guid(309a1e2ed7fd56d408317017e1978297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faeff2e07a79f0407a0810bf15b5213') in 0.019149 seconds
-  Import took 0.020999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Mixamo/MaleBruteA_StdNM.png
-  artifactKey: Guid(c1cd4bd26dbd9034b8aaec4dd4dc75ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_StdNM.png using Guid(c1cd4bd26dbd9034b8aaec4dd4dc75ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84c1997746a12e24079c4241dba2f4b') in 0.051386 seconds
-  Import took 0.053524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Mixamo/MaleBruteA_Bottom_specular.png
-  artifactKey: Guid(309a1e2ed7fd56d408317017e1978297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/MaleBruteA_Bottom_specular.png using Guid(309a1e2ed7fd56d408317017e1978297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faeff2e07a79f0407a0810bf15b5213') in 0.015507 seconds
-  Import took 0.017454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.281870 seconds.
-  path: Assets/Mixamo/PlayerAnimator.controller
-  artifactKey: Guid(a5507b5ebb14cda4ba1f640af63001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mixamo/PlayerAnimator.controller using Guid(a5507b5ebb14cda4ba1f640af63001f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b459bd14994667fcac339b68805401df') in 0.009188 seconds
-  Import took 0.011306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.086979 seconds.
-  path: Assets/GameOver.cs
-  artifactKey: Guid(adb21526250f9fa4084910f589ee1962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameOver.cs using Guid(adb21526250f9fa4084910f589ee1962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f3147efb91dda1e52000e71fbcb0bc') in 0.006861 seconds
-  Import took 0.009469 seconds .
+  Time since last request: 0.002967 seconds.
+  path: Assets/PlayerMovement.cs
+  artifactKey: Guid(ad90e933dcc4f834080b2f3b139cf7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMovement.cs using Guid(ad90e933dcc4f834080b2f3b139cf7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa6581387636d567c580b6398ee26f0') in 0.002340 seconds
+  Import took 0.004500 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000606 seconds.
+Registered in 0.000549 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.846 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.6 MB.
-System memory in use after: 79.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1760.
-Total: 1.934200 ms (FindLiveObjects: 0.205300 ms CreateObjectMapping: 0.061200 ms MarkObjects: 1.620700 ms  DeleteObjects: 0.046000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000622 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
+- Completed reload, in  0.901 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.7 MB.
-System memory in use after: 79.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1763.
-Total: 1.865800 ms (FindLiveObjects: 0.141100 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.639700 ms  DeleteObjects: 0.043400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 190.862603 seconds.
-  path: Assets/GameOver.cs
-  artifactKey: Guid(adb21526250f9fa4084910f589ee1962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameOver.cs using Guid(adb21526250f9fa4084910f589ee1962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0276c78527a774a5a0fa91a3b260c7c1') in 0.003842 seconds
-  Import took 0.005833 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000618 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.807 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.7 MB.
-System memory in use after: 79.7 MB.
+System memory in use before: 62.5 MB.
+System memory in use after: 62.6 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1766.
-Total: 1.661000 ms (FindLiveObjects: 0.150100 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.428400 ms  DeleteObjects: 0.043800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000631 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.800 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.7 MB.
-System memory in use after: 79.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1769.
-Total: 1.606200 ms (FindLiveObjects: 0.136100 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.387700 ms  DeleteObjects: 0.041400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000635 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.839 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.7 MB.
-System memory in use after: 79.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1772.
-Total: 2.373000 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.070800 ms MarkObjects: 1.983400 ms  DeleteObjects: 0.060000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000652 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.882 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.7 MB.
-System memory in use after: 79.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1775.
-Total: 1.521400 ms (FindLiveObjects: 0.130900 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.308800 ms  DeleteObjects: 0.043300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000725 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.999 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.7 MB.
-System memory in use after: 79.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1778.
-Total: 1.866000 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.066700 ms MarkObjects: 1.538100 ms  DeleteObjects: 0.059300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000670 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.7 MB.
-System memory in use after: 79.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1781.
-Total: 1.632600 ms (FindLiveObjects: 0.170000 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.362500 ms  DeleteObjects: 0.052400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000669 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.815 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.7 MB.
-System memory in use after: 79.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1784.
-Total: 1.700600 ms (FindLiveObjects: 0.254100 ms CreateObjectMapping: 0.044100 ms MarkObjects: 1.355100 ms  DeleteObjects: 0.046100 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1715.
+Total: 1.768100 ms (FindLiveObjects: 0.156000 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.520200 ms  DeleteObjects: 0.058700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
