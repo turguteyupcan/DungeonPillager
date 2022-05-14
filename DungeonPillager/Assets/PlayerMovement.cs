@@ -8,11 +8,11 @@ public class PlayerMovement : MonoBehaviour
     public FixedButton screen;
 
     public CharacterController controller;
-    public float speed = 12f;
+    public float speed = 6f;
 
     public float gravity = -9.81f;
-    public float jumpHeight=3f;
-    
+    public float jumpHeight = 3f;
+
 
     public Transform grouncheck;
     public float groundDistance = 0.1f;
@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(grouncheck.position, groundDistance, groundMask);
         isBumped = Physics.CheckSphere(frontcheck.position, 0.4f, groundMask);
-        
+
 
         if (isGrounded && velocity.y < 0)
         {
@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
         float horizontal = 1;
         Vector3 move = transform.right * horizontal;
-        
+
 
         if (screen.Pressed && isGrounded)
         {
@@ -53,18 +53,16 @@ public class PlayerMovement : MonoBehaviour
         {
             move = transform.right * 0;
         }
+        else
+        {
+            speed += 0.00001f;
+        }
 
-        velocity.y+=gravity*Time.deltaTime;
-        controller.Move(velocity*Time.deltaTime);
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
         controller.Move(move * speed * Time.deltaTime);
-        animator.SetFloat("Speed", move.x);
-        
+        animator.SetFloat("Speed", move.x * speed / 6);
+
         animator.SetBool("Jump", !isGrounded);
     }
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    Debug.Log("Hit");
-    //    Destroy(player);
-    //}
 }
