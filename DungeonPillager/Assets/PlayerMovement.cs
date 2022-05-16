@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
         controller.Move(move * speed * Time.deltaTime);
-        animator.SetFloat("Speed", move.x * speed / 6);
+        animator.SetFloat("Speed", move.x * speed / 6/*, 0.01f, Time.deltaTime*/);
 
         animator.SetBool("Jump", !isGrounded);
     }
