@@ -7,6 +7,7 @@ public class CameraStartAnimation : MonoBehaviour
     
     public PlayerMovement playerMovement;
     public CameraFollow cameraFollow;
+    public float animTime;
 
     private IEnumerator coroutine;
 
@@ -21,7 +22,7 @@ public class CameraStartAnimation : MonoBehaviour
 
         // Start function WaitAndPrint as a coroutine.
 
-        coroutine = WaitAndPrint(2.0f);
+        coroutine = WaitAndPrint(animTime);
         StartCoroutine(coroutine);
 
         print("Before WaitAndPrint Finishes " + Time.time);
