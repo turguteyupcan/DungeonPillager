@@ -34,11 +34,11 @@ public class GameOver : MonoBehaviour
     int onceki = -1;
     void rastgeleengelolustur()
     {
-        int engelrastgele = Random.Range(0, 4);
+        int engelrastgele = Random.Range(0, 5);
         
         while (engelrastgele==onceki)
         {
-            engelrastgele = Random.Range(0, 4);
+            engelrastgele = Random.Range(0, 5);
         }
         onceki = engelrastgele;
         Debug.Log(engelrastgele);
