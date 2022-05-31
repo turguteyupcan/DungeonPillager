@@ -59,11 +59,12 @@
     <Compile Include="Assets\Scripts\FixedButton.cs" />
     <Compile Include="Assets\Scripts\FootSteps.cs" />
     <Compile Include="Assets\Scripts\CameraStartAnimation.cs" />
+    <Compile Include="Assets\Scripts\DontDestroyAudio.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SoundManagerScript.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
-    <Compile Include="Assets\Scripts\DontDestroyAudio.cs" />
+    <Compile Include="Assets\OptionsMenu.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
