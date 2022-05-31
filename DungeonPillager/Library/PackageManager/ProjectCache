@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637895399255254316
+      ticks: 637896132220000000
     m_Hash: 2595581408
   m_LockFileStatus:
     m_FilePath: D:/DungeonPillager/DungeonPillager/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637895399256044256
+      ticks: 637896132220000000
     m_Hash: 246243287
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
