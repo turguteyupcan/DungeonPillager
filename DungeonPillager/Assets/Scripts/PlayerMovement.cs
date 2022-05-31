@@ -31,16 +31,6 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         
     }
-
-    private IEnumerator WaitAndPrint(float waitTime,bool flag)
-    {
-        while (flag)
-        {
-            yield return new WaitForSeconds(waitTime);
-            SoundManagerScript.PlaySound("run");
-
-        }
-    }
     private void Update()
     {
         isGrounded = Physics.CheckSphere(grouncheck.position, groundDistance, groundMask);

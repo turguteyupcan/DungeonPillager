@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SoundManagerScript.cs" />
     <Compile Include="Assets\PauseMenu.cs" />
+    <Compile Include="Assets\Score.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

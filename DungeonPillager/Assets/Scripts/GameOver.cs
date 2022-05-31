@@ -8,6 +8,7 @@ public class GameOver : MonoBehaviour
     public GameObject resumeButton;
     public GameObject pauseMenu;
     public GameObject joyUI;
+    public GameObject ScoreText;
 
     [SerializeField] private Transform prefab1, prefab2, prefab3, prefab4, prefab5, rastgeleengel1;
     [SerializeField] private Transform sceneMaker;
@@ -36,7 +37,7 @@ public class GameOver : MonoBehaviour
             pauseMenu.SetActive(true);
             resumeButton.SetActive(false);
             retryButton.SetActive(true);
-            
+            ScoreText.SetActive(true);
         }
 
     }
