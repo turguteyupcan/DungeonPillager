@@ -4,6 +4,10 @@ public class GameOver : MonoBehaviour
 {
     public PlayerMovement playerMovement;
     public Animator animator;
+    public GameObject retryButton;
+    public GameObject resumeButton;
+    public GameObject pauseMenu;
+    public GameObject joyUI;
 
     [SerializeField] private Transform prefab1, prefab2, prefab3, prefab4, prefab5, rastgeleengel1;
     [SerializeField] private Transform sceneMaker;
@@ -28,6 +32,11 @@ public class GameOver : MonoBehaviour
             playerMovement.enabled = false;
             other.enabled = false;
             animator.SetTrigger("Dead");
+            joyUI.SetActive(false);
+            pauseMenu.SetActive(true);
+            resumeButton.SetActive(false);
+            retryButton.SetActive(true);
+            
         }
 
     }
